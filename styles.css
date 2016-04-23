@@ -1,0 +1,61 @@
+/*Main*/
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.page_header {
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 20px;
+
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    /*font-size: 0;*/
+
+}
+.logo {
+    float: left;
+}
+
+.logo_name {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.main_nav {
+    overflow: hidden;
+    width: 930px;
+
+
+}
+.main_nav_item {
+    display: inline-block;
+    
+}
+.main_nav_item a {
+    text-decoration: none;
+}
+.empty_place {
+
+}
+.my_product {
+
+}
+
