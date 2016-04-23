@@ -27,6 +27,7 @@
     /*font-size: 0;*/
 
 }
+
 .logo {
     float: left;
 }
@@ -35,27 +36,67 @@
     font-family: Roboto;
     font-size: 12px;
     font-weight: bold;
-    padding-left: 40px;
-    padding-right: 40px;
     padding-top: 10px;
+    padding-left: 40px;
 }
+
 .main_nav {
     overflow: hidden;
-    width: 930px;
-
+    float: right;
 
 }
+
 .main_nav_item {
     display: inline-block;
-    
+
 }
+
 .main_nav_item a {
     text-decoration: none;
 }
+
 .empty_place {
+    background-color: #e2e2e2;
+    width: 250px;
+    height: 70px;
+    float: left;
 
 }
-.my_product {
 
+.my_product {
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+
+}
+
+.my_product_item a {
+    text-decoration: none;
+}
+
+.product_pictures {
+    float: left;
+    width: 240px;
+    overflow: hidden;
+
+}
+
+.product_pictures_item {
+    float: left;
+    width: 33%;
+}
+
+.contact_info {
+    float: left;
+    overflow: hidden;
+
+}
+
+.produkt_menu {
+    margin-top: 30px;
+}
+
+.produkt_menu_item {
+    display: inline-block;
 }
 
