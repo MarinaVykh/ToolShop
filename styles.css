@@ -40,63 +40,133 @@
     padding-left: 40px;
 }
 
+.info {
+    width: 930px;
+    float: right;
+}
+
 .main_nav {
     overflow: hidden;
     float: right;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: left;
+    margin-left: 0;
 
 }
 
 .main_nav_item {
     display: inline-block;
+    padding-bottom: 10px;
 
 }
 
 .main_nav_item a {
     text-decoration: none;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 12px;
+    padding-right: 20px;
+    
+}
+
+.row {
+    /*margin-top: 35px;*/
+}
+
+.column {
+    float: left;
 }
 
 .empty_place {
     background-color: #e2e2e2;
     width: 250px;
     height: 70px;
-    float: left;
 
 }
 
 .my_product {
     display: inline-block;
     overflow: hidden;
-    float: left;
-
+    margin-left: 30px;
+    font-family: Roboto;
+    font-size: 12px;
 }
 
 .my_product_item a {
-    text-decoration: none;
+    color: #252525;
+    display: block;
+    padding-bottom: 15px;
+
 }
 
 .product_pictures {
-    float: left;
-    width: 240px;
-    overflow: hidden;
+    margin-left: 30px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
 }
 
 .product_pictures_item {
     float: left;
-    width: 33%;
+    border: 1px solid #d7d7d7;
+    width: 70px;
+    height: 70px;
+    margin-right: 12px;
 }
 
 .contact_info {
-    float: left;
-    overflow: hidden;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
 
+.work_hours {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.time_hours {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.tel {
+    font-family: Roboto;
+    font-size: 25px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.city {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.change_city {
+    font-family: Roboto;
+    font-size: 12px;
 }
 
 .produkt_menu {
-    margin-top: 30px;
+    float: left;
+    width: 100%;
+    background-color: #252525;
+    border-radius: 8px;
+    height: 35px;
+
 }
 
 .produkt_menu_item {
     display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+
+
 }
 
+.produkt_menu_item a {
+    text-decoration: none;
+    color: #d4d4d4;  vertical-align: middle;
+}
