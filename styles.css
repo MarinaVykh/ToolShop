@@ -105,6 +105,11 @@
 
 }
 
+.basket:before {
+    content: url(./img/basket.png);
+
+}
+
 .product_pictures {
     margin-left: 30px;
     text-align: center;
@@ -125,6 +130,7 @@
 .contact_info {
     margin-left: 60px;
     margin-bottom: 60px;
+    /*position: relative;*/
 }
 
 .work_hours {
@@ -145,7 +151,7 @@
     font-size: 25px;
     border-bottom: 1px solid #d7d7d7;
     padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .city {
@@ -162,12 +168,20 @@
     border-bottom: 1px dotted #252525;
 }
 
+.change_city:before {
+    content: url(./img/change.png);
+    position: absolute;
+    padding-top: 1px;
+    padding-right: 10px;
+}
+
 .produkt_menu {
     float: left;
     width: 100%;
     background-color: #252525;
     border-radius: 8px;
     height: 35px;
+    text-align: right;
 
 }
 
@@ -199,6 +213,7 @@
     background-color: #ffcc00;
     width: 127px;
     height: 33px;
+    border-radius: 0 8px 8px 0;
 }
 
 .sale a {
