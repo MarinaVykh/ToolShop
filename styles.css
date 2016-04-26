@@ -60,17 +60,23 @@
 
 }
 
+.login {
+    border-right: 1px solid #777777;
+    height: 10px;
+}
+
 .main_nav_item a {
     text-decoration: none;
     color: #252525;
     font-family: Roboto;
     font-size: 12px;
     padding-right: 20px;
-    
+
 }
 
 .row {
-    margin-top: 35px;
+    height: 90px;
+    /*margin-top: 35px;*/
 }
 
 .column {
@@ -124,11 +130,14 @@
 .work_hours {
     font-family: Roboto;
     font-size: 12px;
+    display: inline-block;
+    margin-right: 22px;
 }
 
 .time_hours {
     font-family: Roboto;
     font-size: 12px;
+    display: inline-block;
 }
 
 .tel {
@@ -142,11 +151,15 @@
 .city {
     font-family: Roboto;
     font-size: 12px;
+    display: inline-block;
+    margin-right: 84px;
 }
 
 .change_city {
     font-family: Roboto;
     font-size: 12px;
+    display: inline-block;
+    border-bottom: 1px dotted #252525;
 }
 
 .produkt_menu {
@@ -162,6 +175,7 @@
     display: inline-block;
     font-family: Roboto;
     font-size: 14px;
+    padding-top: 8px;
 
 
 }
@@ -169,4 +183,24 @@
 .produkt_menu_item a {
     text-decoration: none;
     color: #d4d4d4;  vertical-align: middle;
+    padding-right: 35px;
+}
+
+.drills {
+    background-color: #ffcc00;
+    width: 135px;
+    height: 33px;
+}
+.drills a {
+    color: #333333;
+}
+
+.sale {
+    background-color: #ffcc00;
+    width: 127px;
+    height: 33px;
+}
+
+.sale a {
+    color: #333333;
 }
