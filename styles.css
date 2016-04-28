@@ -24,7 +24,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     overflow: hidden;
-    /*font-size: 0;*/
+    font-size: 0;
 
 }
 
@@ -52,10 +52,8 @@
 }
 
 .main_nav {
-    /*overflow: hidden;*/
     float: left;
     width: 720px;
-    /*margin-left: 0;*/
 
 }
 
@@ -67,12 +65,12 @@
 
 .main_nav_item a {
     display: inline-block;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     text-decoration: none;
     color: #252525;
     font-family: Roboto;
     font-size: 12px;
-    padding-right: 20px;
+    padding-right: 22px;
 }
 
 .user_block {
@@ -83,12 +81,22 @@
 }
 
 .login {
-    border-right: 1px solid #777777;
+    padding-right: 26px;
+}
 
+.login:after {
+    color: #252525;
+    width: 2px;
+    height: 11px;
+}
+
+.main_nav_item:last-child a {
+    padding-right: 0;
 }
 
 .header_bottom {
-    padding-top: 20px;
+    padding-top: 18px;
+
 }
 
 .column {
@@ -117,12 +125,12 @@
 .my_product_item a {
     color: #252525;
     display: block;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
 
 }
 
 .basket:before {
-    /*content: url(./img/basket.png);*/
+    content: url(./img/basket.png);
 
 }
 
@@ -143,19 +151,16 @@
     display: table-cell;
 }
 
-.product_pictures_item img {
-
-}
-
 .contact_info {
     margin-bottom: 60px;
-    width: 190px;
+    width: 182px;
     float: right;
-    /*position: relative;*/
+    text-align: right;
 }
 
 .work_hours {
     font-family: Roboto;
+    font-weight: bold;
     font-size: 12px;
     display: inline-block;
     margin-right: 22px;
@@ -169,10 +174,12 @@
 
 .tel {
     font-family: Roboto;
+    font-weight: bold;
     font-size: 25px;
     border-bottom: 1px solid #d7d7d7;
-    padding-bottom: 20px;
-    margin-top: 15px;
+    padding-bottom: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .city {
@@ -196,7 +203,7 @@
     width: 3px;
     height: 3px;
     top: 2px;
-    left: -6px;
+    left: -10px;
 }
 
 .produkt_menu {
@@ -211,6 +218,7 @@
     display: inline-block;
     font-family: Roboto;
     font-size: 14px;
+    font-weight: bold;
     vertical-align: top;
 
 }
@@ -226,10 +234,23 @@
     font-size: 0;
 }
 
+.search {
+    padding-top: 7px;
+    padding-left: 11px;
+    background-color: #ffcc00;
+    border-radius: 8px 0 0 8px;
+    margin-right: 60px;
+}
+
+.search a {
+    background-image: url(./img/search.png);
+    background-repeat: no-repeat;
+
+}
+
 .drills {
     background-color: #ffcc00;
-    width: 135px;
-    height: 33px;
+    padding: 0 7px;
 }
 
 .drills a {
@@ -242,7 +263,8 @@
 
 .sale a {
     color: #333333;
+    font-weight: bold;
     background-color: #ffcc00;
     border-radius: 0 8px 8px 0;
-    font-weight: bold;
+
 }
