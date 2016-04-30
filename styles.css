@@ -44,6 +44,7 @@
 .info {
     width: 930px;
     float: right;
+
 }
 
 .header_top {
@@ -153,9 +154,9 @@
 
 .contact_info {
     margin-bottom: 60px;
-    width: 182px;
+    width: 183px;
     float: right;
-    text-align: right;
+    text-align: center;
 }
 
 .work_hours {
@@ -180,6 +181,7 @@
     padding-bottom: 18px;
     margin-top: 10px;
     margin-bottom: 5px;
+    text-align: justify;
 }
 
 .city {
@@ -258,7 +260,7 @@
 }
 
 .sale {
-    margin-left: 60px;
+    margin-left: 54px;
 }
 
 .sale a {
