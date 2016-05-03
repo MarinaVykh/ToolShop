@@ -161,7 +161,7 @@
     margin-bottom: 60px;
     width: 183px;
     float: right;
-    text-align: center;
+    text-align: right;
 }
 
 .work_hours {
@@ -186,7 +186,7 @@
     padding-bottom: 18px;
     margin-top: 10px;
     margin-bottom: 5px;
-    text-align: justify;
+    text-align: right;
 }
 
 .city {
