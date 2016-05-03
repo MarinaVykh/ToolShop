@@ -96,7 +96,7 @@
 }
 
 .header_bottom {
-    padding-top: 18px;
+    padding-top: 17px;
 
 }
 
@@ -125,13 +125,18 @@
 
 .my_product_item a {
     color: #252525;
-    display: block;
+    display: inline-block;
     padding-bottom: 12px;
 
 }
 
+.basket {
+    position: relative;
+}
+
 .basket:before {
     content: url(./img/basket.png);
+    position: absolute;
 
 }
 
