@@ -117,6 +117,10 @@
     margin-right: 30px;
     font-family: Roboto;
     font-size: 12px;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .my_product_item {
@@ -137,6 +141,10 @@
 .basket:before {
     content: url(./img/basket.png);
     position: absolute;
+    width: 34px;
+    height: 31px;
+    left: -30px;
+    top: -16px;
 
 }
 
@@ -158,10 +166,10 @@
 }
 
 .contact_info {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     width: 183px;
     float: right;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 .work_hours {
@@ -176,6 +184,8 @@
     font-family: Roboto;
     font-size: 12px;
     display: inline-block;
+    width: 74px;
+    /*text-align: right;*/
 }
 
 .tel {
@@ -239,19 +249,25 @@
 
 .produkt_menu ul {
     font-size: 0;
+    float: right;
+    width: 1130px;
+    text-align: right;
 }
 
 .search {
-    padding-top: 7px;
-    padding-left: 11px;
+    float: left;
+    width: 40px;
+    height: 32px;
+    padding: 7px 11px;
     background-color: #ffcc00;
     border-radius: 8px 0 0 8px;
-    margin-right: 60px;
-}
-
-.search a {
+    /*margin-right: 60px;*/
     background-image: url(./img/search.png);
     background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: center;
 
 }
 
