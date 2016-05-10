@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,cyrillic' rel='stylesheet'
-          type='text/css'>
+    <style>
+        @font-face {
+            font-family: 'roboto';
+            src: url('./roboto/roboto.woff') format('woff2'),
+                /*url('roboto.ttf')  format('truetype'),*/
+                 url('roboto.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -29,7 +37,7 @@
                     </ul>
                 </nav>
                 <div class="user_block">
-                    <ul>
+                    <ul class="border_ul">
                         <li class="main_nav_item login"><a href="#">Вход</a></li>
                         <li class="main_nav_item"><a href="#">Регистрация</a></li>
                     </ul>
@@ -41,13 +49,12 @@
                 <div class="column my_product">
                     <ul>
                         <li class="my_product_item basket"><a href="#">3 шт. / 17 250р.</a></li>
-                        <li class="my_product_item"><a href="#">Избранное (7)</a></li>
-                        <li class="my_product_item"><a href="#">К сравнению (5)</a></li>
+                        <li class="my_product_item favorites"><a href="#">Избранное (7)</a></li>
+                        <li class="my_product_item comparison"><a href="#">К сравнению (5)</a></li>
                     </ul>
                 </div>
                 <div class="column product_pictures">
-                    <!--sdelat' ssylkami-->
-                    <div class="product_pictures_item"><img src="./img/tool-1.png" alt="Дрель"></div>
+                    <div class="product_pictures_item dr"><img src="./img/tool-1.png" alt="Дрель"></div>
                     <div class="product_pictures_item"><img src="./img/tool-2.png" alt="Шуруповерт"></div>
                     <div class="product_pictures_item"><img src="./img/tool-3.png" alt="Перфоратор"></div>
                 </div>
@@ -60,18 +67,17 @@
                 </div>
             </div>
         </div>
-        <div class="produkt_menu">
-            <a href="#" class="produkt_menu_item search"></a>
+        <div class="product_menu">
+            <a href="#" class="product_menu_item search"></a>
             <ul>
-
-                <li class="produkt_menu_item drills"><a href="#">Перфораторы</a></li>
-                <li class="produkt_menu_item"><a href="#">Дрели</a></li>
-                <li class="produkt_menu_item"><a href="#">Шлифмашины</a></li>
-                <li class="produkt_menu_item"><a href="#">Пистолеты</a></li>
-                <li class="produkt_menu_item"><a href="#">Электропилы</a></li>
-                <li class="produkt_menu_item"><a href="#">Наборы инструментов</a></li>
-                <li class="produkt_menu_item"><a href="#">Аксессуары</a></li>
-                <li class="produkt_menu_item sale"><a href="#">РАСПРОДАЖА</a></li>
+                <li class="product_menu_item drills"><a href="#">Перфораторы</a></li>
+                <li class="product_menu_item"><a href="#">Дрели</a></li>
+                <li class="product_menu_item"><a href="#">Шлифмашины</a></li>
+                <li class="product_menu_item"><a href="#">Пистолеты</a></li>
+                <li class="product_menu_item"><a href="#">Электропилы</a></li>
+                <li class="product_menu_item"><a href="#">Наборы инструментов</a></li>
+                <li class="product_menu_item"><a href="#">Аксессуары</a></li>
+                <li class="product_menu_item sale"><a href="#">РАСПРОДАЖА</a></li>
             </ul>
         </div>
     </div>
