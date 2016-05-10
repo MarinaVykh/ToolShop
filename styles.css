@@ -1,9 +1,6 @@
-/*Main*/
-
 * {
     padding: 0;
     margin: 0;
-
 }
 
 .page_header {
@@ -14,7 +11,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-top: 20px;
-
 }
 
 .container {
@@ -25,7 +21,6 @@
     box-sizing: border-box;
     overflow: hidden;
     font-size: 0;
-
 }
 
 .logo {
@@ -34,17 +29,15 @@
 }
 
 .logo_name {
-    font-family: Roboto;
+    font-family: HeliosCond Bold;
     font-size: 12px;
     font-weight: bold;
     padding-top: 10px;
-
 }
 
 .info {
     width: 930px;
     float: right;
-
 }
 
 .header_top {
@@ -55,7 +48,6 @@
 .main_nav {
     float: left;
     width: 720px;
-
 }
 
 .main_nav_item {
@@ -92,7 +84,7 @@
     vertical-align: middle;
     background-color: #b0b0b0;
     width: 2px;
-    height: 11px;
+    height: 12px;
     position: absolute;
     top: 1px;
 }
@@ -103,7 +95,6 @@
 
 .header_bottom {
     padding-top: 17px;
-
 }
 
 .column {
@@ -115,7 +106,6 @@
     width: 250px;
     height: 70px;
     margin-right: 30px;
-
 }
 
 .my_product {
@@ -136,7 +126,6 @@
     color: #252525;
     display: inline-block;
     padding-bottom: 12px;
-
 }
 
 .basket {
@@ -149,8 +138,7 @@
     width: 34px;
     height: 31px;
     left: -34px;
-    top: -14px;
-
+    top: -12px;
 }
 
 .favorites {
@@ -164,7 +152,6 @@
     height: 14px;
     left: -26px;
     top: -1px;
-
 }
 
 .comparison {
@@ -178,7 +165,6 @@
     height: 50px;
     left: -40px;
     top: -16px;
-
 }
 
 .product_pictures {
@@ -186,7 +172,6 @@
     text-align: center;
     display: table;
     border-spacing: 12px 0;
-
 }
 
 .product_pictures_item {
@@ -200,7 +185,7 @@
 
 .contact_info {
     margin-bottom: 30px;
-    width: 183px;
+    width: 192px;
     float: right;
 }
 
@@ -223,7 +208,7 @@
     font-weight: bold;
     font-size: 25px;
     border-bottom: 1px solid #d7d7d7;
-    padding-bottom: 18px;
+    padding-bottom: 13px;
     margin-top: 10px;
     margin-bottom: 5px;
     display: inline-block;
@@ -269,7 +254,6 @@
     font-size: 14px;
     font-weight: bold;
     vertical-align: top;
-
 }
 
 .product_menu_item a {
@@ -289,18 +273,16 @@
 .search {
     float: left;
     width: 40px;
-    height: 32px;
+    height: 35px;
     padding: 7px 11px;
     background-color: #ffcc00;
     border-radius: 8px 0 0 8px;
-    /*margin-right: 60px;*/
     background-image: url(./img/search.png);
     background-repeat: no-repeat;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     background-position: center;
-
 }
 
 .drills {
@@ -321,5 +303,4 @@
     font-weight: bold;
     background-color: #ffcc00;
     border-radius: 0 8px 8px 0;
-
 }
