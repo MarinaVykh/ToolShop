@@ -248,7 +248,7 @@
 
 .product_menu ul {
     background-color: #333333;
-    border-radius: 8px;
+    border-radius: 0 8px 8px 0;
 }
 
 .product_menu_item {
@@ -269,7 +269,7 @@
 .product_menu ul {
     font-size: 0;
     float: right;
-    width: 1170px;
+    width: 1130px;
     text-align: right;
 }
 
