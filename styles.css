@@ -260,7 +260,7 @@
     display: inline-block;
     text-decoration: none;
     color: #d4d4d4;
-    padding: 8px 17px;
+    padding: 9px 17px;
 }
 
 .product_menu ul {
@@ -273,7 +273,7 @@
 .search {
     float: left;
     width: 40px;
-    height: 34px;
+    height: 37px;
     padding: 7px 11px;
     background-color: #ffcc00;
     border-radius: 8px 0 0 8px;
