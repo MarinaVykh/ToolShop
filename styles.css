@@ -246,11 +246,6 @@
     border-radius: 8px;
 }
 
-.product_menu ul {
-    background-color: #333333;
-    border-radius: 0 8px 8px 0;
-}
-
 .product_menu_item {
     display: inline-block;
     font-family: Roboto;
@@ -267,9 +262,11 @@
 }
 
 .product_menu ul {
+    background-color: #333333;
+    border-radius: 8px;
     font-size: 0;
     float: right;
-    width: 1130px;
+    width: 1170px;
     text-align: right;
 }
 
@@ -277,7 +274,7 @@
     float: left;
     width: 40px;
     height: 35px;
-    padding: 7px 11px;
+    padding: 6px 11px;
     background-color: #ffcc00;
     border-radius: 8px 0 0 8px;
     background-image: url(./img/search.png);
@@ -298,14 +295,13 @@
 }
 
 .sale {
-    margin-left: 54px;
     background-color: #ffcc00;
+    margin-left: 54px;
     border-radius: 0 8px 8px 0;
 }
 
 .sale a {
     color: #333333;
     font-weight: bold;
-    background-color: #ffcc00;
     border-radius: 0 8px 8px 0;
 }
